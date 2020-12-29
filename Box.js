@@ -4,8 +4,7 @@ class Block {
      var abc = {
          density:0.3,
          friction:1,
-         restitution:1,
-         isStatic:false
+         restitution:1
      }
 
       this.body = Bodies.rectangle(x,y,30,40,abc);
