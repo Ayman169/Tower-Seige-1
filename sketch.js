@@ -60,7 +60,7 @@ function setup(){
   polygon = Bodies.circle(50,200,20);
   World.add(myWorld,polygon);
 
-  chain = new Slingshot(this.polygon,{x:100,y:200});
+  chain = new Slingshot(polygon.Body,{x:100,y:200});
 
 }
 

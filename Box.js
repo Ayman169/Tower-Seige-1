@@ -2,9 +2,9 @@ class Block {
   constructor(x,y){
 
      var abc = {
-         density:1,
+         density:0.3,
          friction:1,
-         restitution:0.3,
+         restitution:1,
          isStatic:false
      }
 
