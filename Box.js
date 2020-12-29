@@ -2,7 +2,7 @@ class Block {
   constructor(x,y){
 
      var abc = {
-         density:0.3,
+         density:1,
          friction:1,
          restitution:1
      }
