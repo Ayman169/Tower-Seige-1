@@ -63,10 +63,10 @@ function setup(){
     friction:1
 }
 
-  polygon = Bodies.circle(50,200,20);
+  polygon = Bodies.circle(50,200,20,options);
   World.add(myWorld,polygon);
 
-  chain = new Slingshot(this.polygon,{x:100,y:200});
+  chain = new SlingShot(this.polygon,{x:100,y:200});
 
 }
 
